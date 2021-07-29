@@ -22,7 +22,8 @@ function send(){
     check_button="<br><br><button class='btn btn-info' onclick='check()'> Check </button>";
     row=question_word+input_box+check_button;
     document.getElementById("output").innerHTML=row;
-    document.getElementById("word").value="";
+    document.getElementById("number1").value="";
+    document.getElementById("number2").value="";
 }
 function check(){
    get_answer=document.getElementById("input_check_box").value;
